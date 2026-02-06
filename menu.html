@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Horario Semanal - School Cafeteria</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="bg-white">
+
+  <div class="carousel-container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/foto1.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img src="img/foto2.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img src="img/foto3.webp" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+
+    </div>
+
+    <header class="content-overlay">
+      <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #e0f2fe; height: 100px">
+        <div class="container-fluid px-4">
+          <a class="navbar-brand d-flex align-items-center" href="menu.html">
+            <img src="img/logo.png" width="70" height="70" alt="Logo" class="me-2" />
+            <span class="fw-bold fs-5 text-dark">SCHOOL CAFETERIA</span>
+          </a>
+          <div class="d-flex justify-content-end align-items-center">
+            <ul class="navbar-nav d-flex flex-row mb-0">
+              <li class="nav-item me-3">
+                <a class="nav-link active fw-semibold" href="loginpage.html">Inicio</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link fw-semibold" href="menu.html">Servicios</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link fw-semibold" href="cuestionario.html">Contacto</a>
+              </li>
+            </ul>
+            <a href="loginpage.html" class="ms-3">
+              <img src="img/usuario.png" width="60" height="60" alt="Usuario"
+                class="rounded-circle border border-light shadow-sm" />
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="content-overlay d-flex flex-column justify-content-center align-items-center">
+      <h2 class="fw-bold mb-5 text-uppercase overlay-bg text-center">Horario Semanal</h2>
+      <div class="d-flex flex-wrap justify-content-center align-items-start gap-3 overlay-bg">
+        <div class="bg-info bg-opacity-50 rounded shadow-sm p-4" style="width: 200px; height: 500px">
+          <h4 class="fw-bold text-dark text-start">LUNES</h4>
+          <div class="mt-5 text-start text-secondary fs-5">
+            <p>Primer plato: Lentejas estofadas con verduras</p>
+            <p>Segundo plato: Filete de merluza a la plancha</p>
+            <p>Postre / Fruta: Yogur natural</p>
+          </div>
+        </div>
+        <div class="bg-info bg-opacity-50 rounded shadow-sm p-4" style="width: 200px; height: 500px">
+          <h4 class="fw-bold text-dark text-start">MARTES</h4>
+          <div class="mt-5 text-start text-secondary fs-5">
+            <p>Primer plato: Macarrones con tomate y atún</p>
+            <p>Segundo plato: Pechuga de pollo al horno</p>
+            <p>Postre / Fruta: Mandarina</p>
+          </div>
+        </div>
+        <div class="bg-info bg-opacity-50 rounded shadow-sm p-4" style="width: 200px; height: 500px">
+          <h4 class="fw-bold text-dark text-start">MIÉRCOLES</h4>
+          <div class="mt-5 text-start text-secondary fs-5">
+            <p>Primer plato: Crema de calabacín</p>
+            <p>Segundo plato: Tortilla de patatas</p>
+            <p>Postre / Fruta: Plátano</p>
+          </div>
+        </div>
+        <div class="bg-info bg-opacity-50 rounded shadow-sm p-4" style="width: 200px; height: 500px">
+          <h4 class="fw-bold text-dark text-start">JUEVES</h4>
+          <div class="mt-5 text-start text-secondary fs-5">
+            <p>Primer plato: Arroz a la cubana</p>
+            <p>Segundo plato: Albóndigas con salsa</p>
+            <p>Postre / Fruta: Yogur con frutas</p>
+          </div>
+        </div>
+        <div class="bg-info bg-opacity-50 rounded shadow-sm p-4" style="width: 200px; height: 500px">
+          <h4 class="fw-bold text-dark text-start">VIERNES</h4>
+          <div class="mt-5 text-start text-secondary fs-5">
+            <p>Primer plato: Ensalada de pasta con verduras</p>
+            <p>Segundo plato: Hamburguesa de ternera + pan</p>
+            <p>Postre / Fruta: Manzana</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+  </div>
+
+  <footer class="bg-dark text-center text-white mt-auto">
+    <div class="container">
+      <section class="mb-4">
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-facebook"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-twitter"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-google"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-instagram"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-linkedin"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-github"></i></a>
+      </section>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2025 School Cafeteria. Todos los derechos reservados
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
